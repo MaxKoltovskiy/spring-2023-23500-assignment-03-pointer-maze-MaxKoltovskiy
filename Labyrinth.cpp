@@ -17,7 +17,7 @@ bool isPathToFreedom(MazeCell* start, const std::string& moves, int found) {
     }
     
     
-    std::cout<< moves[0]<< "\n";
+    //std::cout<< moves[0]<< "\n";
     switch(moves[0]) {
         case 'N':
             return isPathToFreedom(start -> north, moves.substr(1), found);
